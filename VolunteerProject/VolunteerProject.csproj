@@ -204,6 +204,10 @@
     <Compile Include="Migrations\201807111733560_added controllers.Designer.cs">
       <DependentUpon>201807111733560_added controllers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807192306422_made a connection.cs" />
+    <Compile Include="Migrations\201807192306422_made a connection.Designer.cs">
+      <DependentUpon>201807192306422_made a connection.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Event.cs" />
     <Compile Include="Models\User.cs" />
@@ -303,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807111733560_added controllers.resx">
       <DependentUpon>201807111733560_added controllers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807192306422_made a connection.resx">
+      <DependentUpon>201807192306422_made a connection.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
