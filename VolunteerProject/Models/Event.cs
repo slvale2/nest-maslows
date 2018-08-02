@@ -17,7 +17,7 @@ namespace VolunteerProject.Models
 		public DateTime Time { get; set; }
 		public int WantedAmountVolunteers { get; set; }
 		// Attendance is for the list of users who will be attending as guest versus workers
-		public int AmtVolunteers { get; set; }
+		public int AmtVolunteers { get; set; } = 0;
 		public List<User> Attendance { get; set; }
 
 
