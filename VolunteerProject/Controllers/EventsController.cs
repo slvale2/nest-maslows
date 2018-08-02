@@ -6,10 +6,12 @@ using System.Net.Http;
 using System.Web.Http;
 using VolunteerProject.Utility;
 using VolunteerProject.Models;
+using System.Web.Http.Cors;
 
 namespace VolunteerProject.Controllers
 {
-    public class EventsController : ApiController
+	[EnableCors(origins: "*", headers: "*", methods: "*")]
+	public class EventsController : ApiController
     {
 		private VolunteerContext db = new VolunteerContext();
 
