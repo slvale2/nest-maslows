@@ -7,13 +7,13 @@ namespace VolunteerProject.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addedcontrollers : IMigrationMetadata
+    public sealed partial class user : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedcontrollers));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(user));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807111733560_added controllers"; }
+            get { return "201808021758151_user"; }
         }
         
         string IMigrationMetadata.Source
