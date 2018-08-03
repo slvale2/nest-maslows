@@ -91,5 +91,17 @@ namespace VolunteerProject.Controllers
 			db.SaveChanges();
 			return new JsonResponse();
 		}
+
+		[HttpGet]
+		[ActionName("login")]
+		public JsonResponse login(string username, string password)
+		{
+			if (username == null || password == null)
+				return new JsonResponse { Error = -3, Message = "the password or user name is null", Result = "failed" };
+			var user = db.Users.SingleOrDefault(u => u.Username == username && u.Password == password);
+			if (user == null)
+				return new JsonResponse { Error = -7, Message = "there is no account", Result = "failed" };
+			return new JsonResponse { Data = user };
+		}
     }
 }
