@@ -206,17 +206,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807111431475_added context.cs" />
-    <Compile Include="Migrations\201807111431475_added context.Designer.cs">
-      <DependentUpon>201807111431475_added context.cs</DependentUpon>
+    <Compile Include="Migrations\201808021739497_intial.cs" />
+    <Compile Include="Migrations\201808021739497_intial.Designer.cs">
+      <DependentUpon>201808021739497_intial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201807111733560_added controllers.cs" />
-    <Compile Include="Migrations\201807111733560_added controllers.Designer.cs">
-      <DependentUpon>201807111733560_added controllers.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201807192306422_made a connection.cs" />
-    <Compile Include="Migrations\201807192306422_made a connection.Designer.cs">
-      <DependentUpon>201807192306422_made a connection.cs</DependentUpon>
+    <Compile Include="Migrations\201808021758151_user.cs" />
+    <Compile Include="Migrations\201808021758151_user.Designer.cs">
+      <DependentUpon>201808021758151_user.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Chat.cs" />
@@ -316,14 +312,11 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201807111431475_added context.resx">
-      <DependentUpon>201807111431475_added context.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808021739497_intial.resx">
+      <DependentUpon>201808021739497_intial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807111733560_added controllers.resx">
-      <DependentUpon>201807111733560_added controllers.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201807192306422_made a connection.resx">
-      <DependentUpon>201807192306422_made a connection.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201808021758151_user.resx">
+      <DependentUpon>201808021758151_user.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

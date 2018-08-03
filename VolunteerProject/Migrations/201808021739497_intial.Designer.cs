@@ -7,13 +7,13 @@ namespace VolunteerProject.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class addedcontext : IMigrationMetadata
+    public sealed partial class intial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addedcontext));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(intial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201807111431475_added context"; }
+            get { return "201808021739497_intial"; }
         }
         
         string IMigrationMetadata.Source
